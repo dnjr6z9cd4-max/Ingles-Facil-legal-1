@@ -5,137 +5,252 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Privacy Policy – Inglés Fácil</title>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #1f2937; line-height: 1.6; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 820px; margin: 40px auto; padding: 0 20px; color: #1f2937; line-height: 1.65; }
   h1 { color: #4f46e5; border-bottom: 2px solid #4f46e5; padding-bottom: 8px; }
-  h2 { color: #4338ca; margin-top: 28px; }
+  h2 { color: #4338ca; margin-top: 32px; }
+  h3 { color: #4338ca; margin-top: 18px; font-size: 1.05em; }
   .lang-note { background: #eef2ff; padding: 10px 14px; border-radius: 8px; color: #4338ca; font-weight: 600; }
   .updated { color: #6b7280; font-style: italic; }
   hr.divider { border: 0; border-top: 3px dashed #c7d2fe; margin: 50px 0; }
-  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
-  th, td { border: 1px solid #e5e7eb; padding: 8px 12px; text-align: left; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 0.95em; }
+  th, td { border: 1px solid #e5e7eb; padding: 8px 12px; text-align: left; vertical-align: top; }
   th { background: #eef2ff; color: #4338ca; }
   ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
   footer { color: #6b7280; font-size: 13px; margin-top: 40px; }
+  a { color: #4f46e5; }
+  .notice { background: #ecfdf5; border-left: 4px solid #10b981; padding: 12px 16px; margin: 16px 0; border-radius: 4px; }
 </style>
 </head>
 <body>
 
-<p class="lang-note">🌐 ENGLISH & ESPAÑOL</p>
+<p class="lang-note">🌐 ENGLISH &amp; ESPAÑOL</p>
 
 <!-- ========== ENGLISH ========== -->
 <h1>Privacy Policy</h1>
-<p class="updated">Last Updated: May 11, 2026</p>
+<p class="updated">Last Updated: May 11, 2026 · Effective Date: May 11, 2026</p>
 
-<p><strong>Inglés Fácil</strong> is owned and operated by <strong>Fonsek Companies LLC</strong>
-(Holland, Michigan, USA). This Privacy Policy explains what data we collect, how we use it, and who we share it with.
-By using the App, you agree to this Policy.</p>
+<p><strong>Inglés Fácil</strong> (the "App") is owned and operated by <strong>Fonsek Companies LLC</strong>, Holland, Michigan, USA (the "Company," "we," "us," or "our"). This Privacy Policy explains what personal data we collect, how we use it, the legal bases on which we process it, who we share it with, how long we retain it, and the rights you have. By using the App, you agree to this Policy. If you do not agree, please do not use the App.</p>
 
-<h2>1. DATA WE COLLECT</h2>
+<div class="notice">
+<strong>Summary:</strong> We collect the minimum data needed to run the App (email, learning progress, message content sent to the AI tutor, subscription status). We <strong>do not sell your data</strong>, we <strong>do not show third-party ads</strong>, we <strong>do not use advertising IDs</strong>, and we <strong>do not upload voice recordings</strong> — speech recognition runs on your device.
+</div>
+
+<h2>1. DATA CONTROLLER</h2>
+<p><strong>Fonsek Companies LLC</strong> (Holland, Michigan, USA) is the data controller responsible for your personal data. For any privacy question or request, contact: <a href="mailto:hola.inglesfacil@gmail.com">hola.inglesfacil@gmail.com</a>.</p>
+
+<h2>2. DATA WE COLLECT</h2>
 <ul>
-  <li><strong>Account data:</strong> email address, display name, and authentication identifier (from Sign in with Apple, Google Sign-In, or email/password).</li>
-  <li><strong>Learning data:</strong> level (A1–C1), lesson progress, XP, streak, messages exchanged with Buddy, situation scenes practiced.</li>
-  <li><strong>Voice recordings:</strong> short audio captured by the device microphone is processed on-device by the OS speech recognition engine (no audio file is uploaded to our servers). Only the resulting transcribed text is sent to the AI tutor.</li>
-  <li><strong>Subscription and device data:</strong> subscription status, device identifier, platform (iOS/Android), app version.</li>
-  <li><strong>Usage analytics:</strong> session duration, features used, daily message count (used for fair-use limits and refund validation).</li>
+  <li><strong>Account data:</strong> email address, display name, profile photo URL (if provided by Sign in with Apple or Google), and an authentication identifier (UID). Source: Sign in with Apple, Google Sign-In, or email/password.</li>
+  <li><strong>Learning data:</strong> selected level (A1–C1), lesson progress, XP, streak, last-login timestamp, messages exchanged with Buddy (text), Situation scenes practiced and answers.</li>
+  <li><strong>Voice / microphone:</strong> short audio captured by the device microphone is processed <strong>on-device</strong> by the operating system's speech-recognition engine (Apple Speech / Android SpeechRecognizer). <strong>Raw audio is never uploaded to our servers.</strong> Only the resulting transcribed text is sent to the AI tutor.</li>
+  <li><strong>Subscription &amp; entitlement data:</strong> subscription status (active/trial/expired), product identifier, anonymous RevenueCat App User ID, platform (iOS/Android), app version.</li>
+  <li><strong>Device &amp; technical data:</strong> device model, operating system version, app version, language, time zone, crash logs and basic diagnostics (via Firebase).</li>
+  <li><strong>Usage analytics:</strong> session timestamps, features used, daily message count to Buddy (for fair-use limits and refund validation). We <strong>do not</strong> collect precise GPS location, contacts, photos, calendar, SMS, or browsing history.</li>
+  <li><strong>Local storage:</strong> the App stores non-sensitive preferences (e.g., last-screen, audio-volume setting) in local device storage. No cross-site tracking cookies are used.</li>
 </ul>
 
-<h2>2. AI PROCESSING (BUDDY)</h2>
-<p>Buddy is powered by <strong>Google Gemini</strong> (Generative Language API) for conversation generation and
-<strong>Google Cloud Text-to-Speech</strong> for voice synthesis. When you chat with Buddy, the text of your message and a
-short conversation history are sent to Google's API solely for the purpose of generating an educational response.
-Google does not use this data to train its general models for the Generative Language API under our usage tier.</p>
-
-<h2>3. SERVICE PROVIDERS (DATA SUB-PROCESSORS)</h2>
+<h2>3. DEVICE PERMISSIONS WE REQUEST</h2>
 <table>
-  <tr><th>Provider</th><th>Purpose</th><th>Data shared</th></tr>
-  <tr><td>Google LLC (Firebase)</td><td>Authentication, database (Firestore), Cloud Functions, App Check, Push Notifications</td><td>Account data, learning data, usage analytics</td></tr>
-  <tr><td>Google LLC (Gemini API)</td><td>AI tutor responses</td><td>Message text and conversation context</td></tr>
-  <tr><td>Google LLC (Cloud Text-to-Speech)</td><td>Voice synthesis for Buddy</td><td>Generated response text only</td></tr>
-  <tr><td>RevenueCat, Inc.</td><td>Subscription management and validation</td><td>Subscription status, anonymous app user ID, device platform</td></tr>
-  <tr><td>Apple Inc. / Google LLC (Play Billing)</td><td>Payment processing</td><td>Transaction data — handled directly by the store; we never see your payment method</td></tr>
+  <tr><th>Permission</th><th>Why we need it</th><th>Optional?</th></tr>
+  <tr><td>Microphone</td><td>To recognize spoken English for speaking exercises with Buddy. Audio is processed locally on the device.</td><td>Yes — you may use the App by typing</td></tr>
+  <tr><td>Speech Recognition (iOS)</td><td>Required by iOS to enable on-device speech-to-text.</td><td>Yes</td></tr>
+  <tr><td>Internet / Network</td><td>To communicate with our servers, Firebase, the AI tutor, and the app stores.</td><td>No — required for core functionality</td></tr>
+  <tr><td>Notifications</td><td>To remind you of your streak and study schedule (only if you opt in).</td><td>Yes</td></tr>
 </table>
 
-<h2>4. INTERNATIONAL COMPLIANCE (USA, CANADA, EU & LATAM)</h2>
-<p>We adhere to <strong>CCPA</strong> (California), <strong>PIPEDA</strong> (Canada), <strong>GDPR</strong> (European Union),
-and <strong>LGPD</strong> (Latin America) standards. Your data is stored securely on servers operated by Google Cloud in the United States.
-In the event of a permanent shutdown, all personal data will be deleted within 60 days.</p>
+<h2>4. HOW WE USE YOUR DATA AND LEGAL BASES (GDPR)</h2>
+<table>
+  <tr><th>Purpose</th><th>Legal basis (GDPR Art. 6)</th></tr>
+  <tr><td>Create and maintain your account, authenticate you</td><td>Performance of a contract</td></tr>
+  <tr><td>Provide AI tutor responses (Buddy), generate situation scenes</td><td>Performance of a contract</td></tr>
+  <tr><td>Process subscription, validate entitlements, prevent fraud</td><td>Performance of a contract / Legitimate interest</td></tr>
+  <tr><td>Send push notifications about streaks (when enabled)</td><td>Consent (you opt in)</td></tr>
+  <tr><td>Apply fair-use limits, validate refund requests</td><td>Legitimate interest</td></tr>
+  <tr><td>Improve quality (aggregated, de-identified analytics)</td><td>Legitimate interest</td></tr>
+  <tr><td>Comply with legal obligations (tax, sanctions, law enforcement)</td><td>Legal obligation</td></tr>
+</table>
 
-<h2>5. YOUR RIGHTS</h2>
+<h2>5. AI PROCESSING (BUDDY)</h2>
+<p>Buddy is powered by <strong>Google Gemini</strong> (Generative Language API) for conversation and content generation, and by <strong>Google Cloud Text-to-Speech</strong> for voice synthesis. When you chat with Buddy, the text of your message and a short conversation history are sent to Google's API solely for the purpose of generating an educational response. Under the paid Generative Language API tier we use, <strong>Google does not use your prompts or responses to train its general AI models</strong>. AI output may be inaccurate; do not rely on Buddy for legal, medical, immigration, or financial advice.</p>
+
+<h2>6. SERVICE PROVIDERS / SUB-PROCESSORS</h2>
+<table>
+  <tr><th>Provider</th><th>Purpose</th><th>Data shared</th><th>Location</th></tr>
+  <tr><td>Google LLC – Firebase</td><td>Authentication, Firestore database, Cloud Functions, App Check, Cloud Messaging</td><td>Account data, learning data, usage analytics</td><td>USA</td></tr>
+  <tr><td>Google LLC – Gemini API</td><td>AI tutor responses, situation scene generation</td><td>Message text, conversation context, selected level</td><td>USA</td></tr>
+  <tr><td>Google LLC – Cloud Text-to-Speech</td><td>Voice synthesis for Buddy</td><td>Generated response text only</td><td>USA</td></tr>
+  <tr><td>RevenueCat, Inc.</td><td>Subscription management and validation</td><td>Subscription status, anonymous App User ID, device platform, store transaction ID</td><td>USA</td></tr>
+  <tr><td>Apple Inc. / Google LLC (Play Billing)</td><td>Payment processing</td><td>Transaction data — handled directly by the store; we never see your payment method</td><td>USA / Global</td></tr>
+</table>
+<p>All sub-processors are bound by data-processing agreements requiring adequate protection of your data. We do not sell your personal data to third parties.</p>
+
+<h2>7. INTERNATIONAL DATA TRANSFERS</h2>
+<p>Your data is stored on servers operated by Google Cloud, primarily in the United States. If you are located in the European Economic Area, United Kingdom, Switzerland, or another region with data-export restrictions, your data is transferred under the European Commission's <strong>Standard Contractual Clauses (SCCs)</strong> and/or other lawful transfer mechanisms with our sub-processors.</p>
+
+<h2>8. DATA RETENTION</h2>
 <ul>
-  <li><strong>Access &amp; Portability:</strong> request a copy of your data.</li>
-  <li><strong>Correction:</strong> update inaccurate data via the in-app Profile screen.</li>
-  <li><strong>Deletion:</strong> delete your account in-app (Profile → Delete Account) or request deletion by email.</li>
-  <li><strong>Opt-out:</strong> withdraw consent at any time by deleting the app and your account.</li>
+  <li><strong>Account &amp; learning data:</strong> retained for as long as your account is active.</li>
+  <li><strong>Inactive accounts:</strong> if you do not log in for 24 consecutive months, we may delete your account and associated data after sending a notification to your registered email.</li>
+  <li><strong>Buddy conversation history:</strong> the most recent conversations are stored to provide continuity; you can clear them in the App.</li>
+  <li><strong>Subscription &amp; transaction records:</strong> retained for up to 7 years to comply with U.S. tax and accounting laws.</li>
+  <li><strong>Crash logs / diagnostics:</strong> retained up to 90 days.</li>
+  <li><strong>Account deletion:</strong> when you delete your account, we remove personal data within 30 days, except records we are legally required to keep (e.g., billing).</li>
+  <li><strong>Service shutdown:</strong> in the event of a permanent shutdown of the App, all personal data will be deleted within 60 days.</li>
 </ul>
 
-<h2>6. REFUND VALIDATION</h2>
-<p>If you request a refund via Apple or Google, we share consumption information (usage metrics) with the corresponding store to validate the request.</p>
+<h2>9. SECURITY</h2>
+<p>We use industry-standard safeguards: HTTPS/TLS encryption in transit, encryption at rest on Google Cloud, Firebase App Check to prevent abusive API requests, Firebase Authentication with secure password hashing, and least-privilege access controls. No system is 100% secure; you are responsible for keeping your account credentials confidential. We will notify affected users and competent authorities of any data breach as required by applicable law.</p>
 
-<h2>7. CHILDREN'S PRIVACY</h2>
-<p>The App is not directed to children under the age of 13. We do not knowingly collect data from children under 13. If you believe we have collected such data, please contact us and we will delete it.</p>
+<h2>10. CHILDREN'S PRIVACY (COPPA &amp; GDPR-K)</h2>
+<p>The App is not directed to children under the age of 13 (or the applicable minimum digital-consent age in your country, e.g., 16 in some EU states). We do not knowingly collect personal data from children under 13. If you are a parent or guardian and believe your child has provided us data, please contact <a href="mailto:hola.inglesfacil@gmail.com">hola.inglesfacil@gmail.com</a> and we will delete it promptly.</p>
 
-<h2>8. CONTACT</h2>
-<p>Fonsek Companies LLC<br>
-Holland, Michigan, USA<br>
-Email: <a href="mailto:hola.inglesfacil@gmail.com">hola.inglesfacil@gmail.com</a></p>
+<h2>11. YOUR RIGHTS</h2>
+<p>Depending on your jurisdiction, you may have the following rights regarding your personal data:</p>
+<ul>
+  <li><strong>Access &amp; Portability:</strong> request a copy of your personal data in a portable format.</li>
+  <li><strong>Correction:</strong> update inaccurate data via the in-app Profile screen or by contacting us.</li>
+  <li><strong>Deletion ("Right to be Forgotten"):</strong> delete your account in-app (Profile → Delete Account) or email us to request deletion.</li>
+  <li><strong>Restriction / Objection:</strong> restrict or object to certain processing.</li>
+  <li><strong>Withdraw Consent:</strong> at any time, by disabling notifications, deleting the App, or deleting your account.</li>
+  <li><strong>Right to Lodge a Complaint:</strong> if you are in the EU/UK, you may file a complaint with your local data-protection authority.</li>
+</ul>
+
+<h3>11.1 California Residents (CCPA/CPRA)</h3>
+<p>You have the right to know, delete, and correct your personal information, to opt out of "sale" or "sharing" (we do <strong>not</strong> sell or share personal information for cross-context behavioral advertising), and to limit the use of sensitive personal information. We do not discriminate against users who exercise these rights. To exercise them, email <a href="mailto:hola.inglesfacil@gmail.com">hola.inglesfacil@gmail.com</a>.</p>
+
+<h3>11.2 Brazil (LGPD) and Latin America</h3>
+<p>You have rights of access, correction, anonymization, portability, deletion, information about sub-processors, and revocation of consent under Brazil's LGPD and analogous Latin-American laws.</p>
+
+<h2>12. REFUND VALIDATION</h2>
+<p>If you request a refund via Apple or Google, we share consumption data (usage metrics) with the corresponding store solely to validate the request, as required by the store's policies.</p>
+
+<h2>13. ADVERTISING AND TRACKING</h2>
+<p>The App <strong>does not</strong> display third-party advertisements, does <strong>not</strong> use advertising identifiers (IDFA / Android Advertising ID), and does <strong>not</strong> participate in cross-context behavioral advertising. We do not engage in App Tracking (ATT) on iOS.</p>
+
+<h2>14. CHANGES TO THIS POLICY</h2>
+<p>We may update this Privacy Policy from time to time. Material changes will be notified through the App or by email at least 7 days before they take effect. The "Last Updated" date at the top will reflect the latest revision.</p>
+
+<h2>15. CONTACT</h2>
+<p>
+  <strong>Fonsek Companies LLC</strong><br>
+  Holland, Michigan, USA<br>
+  Email: <a href="mailto:hola.inglesfacil@gmail.com">hola.inglesfacil@gmail.com</a>
+</p>
 
 <hr class="divider" />
 
 <!-- ========== ESPAÑOL ========== -->
 <h1>Política de Privacidad</h1>
-<p class="updated">Última actualización: 11 de mayo de 2026</p>
+<p class="updated">Última actualización: 11 de mayo de 2026 · Fecha de vigencia: 11 de mayo de 2026</p>
 
-<p><strong>Inglés Fácil</strong> es propiedad de y operada por <strong>Fonsek Companies LLC</strong>
-(Holland, Michigan, EE. UU.). Esta Política de Privacidad explica qué datos recopilamos, cómo los usamos y con quién los compartimos.
-Al usar la App, usted acepta esta Política.</p>
+<p><strong>Inglés Fácil</strong> (la "App") es propiedad de y operada por <strong>Fonsek Companies LLC</strong>, Holland, Michigan, EE. UU. (la "Compañía," "nosotros" o "nuestro"). Esta Política de Privacidad explica qué datos personales recopilamos, cómo los usamos, las bases legales del tratamiento, con quién los compartimos, cuánto tiempo los conservamos y qué derechos tiene usted. Al usar la App, acepta esta Política. Si no está de acuerdo, no utilice la App.</p>
 
-<h2>1. DATOS QUE RECOPILAMOS</h2>
+<div class="notice">
+<strong>Resumen:</strong> Recopilamos los datos mínimos necesarios para operar la App (correo, progreso de aprendizaje, mensajes enviados al tutor IA, estado de suscripción). <strong>No vendemos sus datos</strong>, <strong>no mostramos publicidad de terceros</strong>, <strong>no usamos identificadores publicitarios</strong> y <strong>no subimos grabaciones de voz</strong> — el reconocimiento de voz se realiza en su dispositivo.
+</div>
+
+<h2>1. RESPONSABLE DEL TRATAMIENTO</h2>
+<p><strong>Fonsek Companies LLC</strong> (Holland, Michigan, EE. UU.) es el responsable del tratamiento de sus datos personales. Para cualquier consulta o solicitud de privacidad, contacte: <a href="mailto:hola.inglesfacil@gmail.com">hola.inglesfacil@gmail.com</a>.</p>
+
+<h2>2. DATOS QUE RECOPILAMOS</h2>
 <ul>
-  <li><strong>Datos de cuenta:</strong> correo electrónico, nombre y un identificador de autenticación (de Sign in with Apple, Google Sign-In o correo/contraseña).</li>
-  <li><strong>Datos de aprendizaje:</strong> nivel (A1–C1), progreso de lecciones, XP, racha, mensajes intercambiados con Buddy, escenas de situaciones practicadas.</li>
-  <li><strong>Grabaciones de voz:</strong> el audio corto capturado por el micrófono se procesa en el dispositivo por el motor de reconocimiento de voz del sistema operativo (no se sube ningún archivo de audio a nuestros servidores). Solo el texto transcrito resultante se envía al tutor de IA.</li>
-  <li><strong>Datos de suscripción y dispositivo:</strong> estado de suscripción, identificador del dispositivo, plataforma (iOS/Android), versión de la app.</li>
-  <li><strong>Analíticas de uso:</strong> duración de sesión, funciones usadas, conteo diario de mensajes (utilizados para los límites de uso justo y validación de reembolsos).</li>
+  <li><strong>Datos de cuenta:</strong> correo electrónico, nombre, URL de foto de perfil (si lo provee Sign in with Apple o Google) e identificador de autenticación (UID). Fuente: Sign in with Apple, Google Sign-In o correo/contraseña.</li>
+  <li><strong>Datos de aprendizaje:</strong> nivel (A1–C1), progreso de lecciones, XP, racha, último inicio de sesión, mensajes intercambiados con Buddy (texto), escenas de Situaciones practicadas y respuestas.</li>
+  <li><strong>Voz / micrófono:</strong> el audio corto capturado por el micrófono se procesa <strong>en el dispositivo</strong> por el motor de reconocimiento de voz del sistema operativo (Apple Speech / Android SpeechRecognizer). <strong>El audio nunca se sube a nuestros servidores.</strong> Solo se envía el texto transcrito al tutor IA.</li>
+  <li><strong>Datos de suscripción:</strong> estado de suscripción (activa/prueba/vencida), identificador del producto, ID anónimo de RevenueCat App User, plataforma (iOS/Android), versión de la app.</li>
+  <li><strong>Datos del dispositivo y técnicos:</strong> modelo, versión del SO, versión de la app, idioma, zona horaria, registros de fallos y diagnósticos básicos (vía Firebase).</li>
+  <li><strong>Analíticas de uso:</strong> sesiones, funciones usadas, conteo diario de mensajes a Buddy (para límites de uso justo y validación de reembolsos). <strong>No</strong> recopilamos ubicación GPS precisa, contactos, fotos, calendario, SMS ni historial de navegación.</li>
+  <li><strong>Almacenamiento local:</strong> la App guarda preferencias no sensibles (p. ej., última pantalla, volumen) en el almacenamiento local del dispositivo. No se usan cookies de rastreo entre sitios.</li>
 </ul>
 
-<h2>2. PROCESAMIENTO POR IA (BUDDY)</h2>
-<p>Buddy funciona con <strong>Google Gemini</strong> (Generative Language API) para la generación de conversación y
-<strong>Google Cloud Text-to-Speech</strong> para la síntesis de voz. Cuando chatea con Buddy, el texto de su mensaje y un historial corto de la conversación se envían a la API de Google únicamente con fines de generar una respuesta educativa.
-Google no usa estos datos para entrenar sus modelos generales bajo el plan de uso que tenemos para la Generative Language API.</p>
-
-<h2>3. PROVEEDORES DE SERVICIO (SUB-ENCARGADOS DEL TRATAMIENTO)</h2>
+<h2>3. PERMISOS DEL DISPOSITIVO</h2>
 <table>
-  <tr><th>Proveedor</th><th>Propósito</th><th>Datos compartidos</th></tr>
-  <tr><td>Google LLC (Firebase)</td><td>Autenticación, base de datos (Firestore), Cloud Functions, App Check, Notificaciones Push</td><td>Datos de cuenta, datos de aprendizaje, analíticas de uso</td></tr>
-  <tr><td>Google LLC (Gemini API)</td><td>Respuestas del tutor IA</td><td>Texto del mensaje y contexto de la conversación</td></tr>
-  <tr><td>Google LLC (Cloud Text-to-Speech)</td><td>Síntesis de voz de Buddy</td><td>Solo el texto de la respuesta generada</td></tr>
-  <tr><td>RevenueCat, Inc.</td><td>Gestión y validación de suscripciones</td><td>Estado de suscripción, ID anónimo de usuario, plataforma</td></tr>
-  <tr><td>Apple Inc. / Google LLC (Play Billing)</td><td>Procesamiento de pagos</td><td>Datos de transacción — manejados directamente por la tienda; nunca vemos su método de pago</td></tr>
+  <tr><th>Permiso</th><th>Para qué lo necesitamos</th><th>¿Opcional?</th></tr>
+  <tr><td>Micrófono</td><td>Reconocer inglés hablado para ejercicios de habla con Buddy. El audio se procesa localmente.</td><td>Sí — puede usar la App escribiendo</td></tr>
+  <tr><td>Reconocimiento de voz (iOS)</td><td>Requerido por iOS para habilitar el reconocimiento de voz en el dispositivo.</td><td>Sí</td></tr>
+  <tr><td>Internet / Red</td><td>Comunicarnos con nuestros servidores, Firebase, el tutor IA y las tiendas.</td><td>No — requerido para la funcionalidad principal</td></tr>
+  <tr><td>Notificaciones</td><td>Recordatorios de racha y estudio (solo si lo activa).</td><td>Sí</td></tr>
 </table>
 
-<h2>4. CUMPLIMIENTO INTERNACIONAL (EE. UU., CANADÁ, UE Y LATAM)</h2>
-<p>Cumplimos con <strong>CCPA</strong> (California), <strong>PIPEDA</strong> (Canadá), <strong>GDPR</strong> (Unión Europea)
-y <strong>LGPD</strong> (Latinoamérica). Sus datos se almacenan de forma segura en servidores operados por Google Cloud en los Estados Unidos.
-En caso de cierre definitivo, borraremos todos sus datos personales en un plazo de 60 días.</p>
+<h2>4. CÓMO USAMOS SUS DATOS Y BASES LEGALES (RGPD)</h2>
+<table>
+  <tr><th>Finalidad</th><th>Base legal (RGPD Art. 6)</th></tr>
+  <tr><td>Crear y mantener su cuenta, autenticarle</td><td>Ejecución de un contrato</td></tr>
+  <tr><td>Proveer respuestas del tutor IA (Buddy), generar escenas</td><td>Ejecución de un contrato</td></tr>
+  <tr><td>Procesar la suscripción, validar acceso, prevenir fraude</td><td>Ejecución de contrato / Interés legítimo</td></tr>
+  <tr><td>Enviar notificaciones push de racha (cuando se activan)</td><td>Consentimiento (opt-in)</td></tr>
+  <tr><td>Aplicar límites de uso justo, validar reembolsos</td><td>Interés legítimo</td></tr>
+  <tr><td>Mejorar la calidad (analíticas agregadas y des-identificadas)</td><td>Interés legítimo</td></tr>
+  <tr><td>Cumplir obligaciones legales (impuestos, sanciones, autoridades)</td><td>Obligación legal</td></tr>
+</table>
 
-<h2>5. SUS DERECHOS</h2>
+<h2>5. PROCESAMIENTO POR IA (BUDDY)</h2>
+<p>Buddy funciona con <strong>Google Gemini</strong> (Generative Language API) para la generación de conversación y contenido, y con <strong>Google Cloud Text-to-Speech</strong> para la síntesis de voz. Cuando chatea con Buddy, el texto de su mensaje y un historial corto de la conversación se envían a la API de Google únicamente para generar una respuesta educativa. Bajo el plan pago de Generative Language API que usamos, <strong>Google no usa sus prompts ni respuestas para entrenar sus modelos generales de IA</strong>. La salida de IA puede ser inexacta; no se base en Buddy para asesoría legal, médica, migratoria ni financiera.</p>
+
+<h2>6. PROVEEDORES DE SERVICIO / SUB-ENCARGADOS</h2>
+<table>
+  <tr><th>Proveedor</th><th>Propósito</th><th>Datos compartidos</th><th>Ubicación</th></tr>
+  <tr><td>Google LLC – Firebase</td><td>Autenticación, base de datos (Firestore), Cloud Functions, App Check, Cloud Messaging</td><td>Datos de cuenta, datos de aprendizaje, analíticas</td><td>EE. UU.</td></tr>
+  <tr><td>Google LLC – Gemini API</td><td>Respuestas del tutor IA, generación de escenas</td><td>Texto de mensajes, contexto, nivel seleccionado</td><td>EE. UU.</td></tr>
+  <tr><td>Google LLC – Cloud Text-to-Speech</td><td>Síntesis de voz de Buddy</td><td>Solo el texto de la respuesta generada</td><td>EE. UU.</td></tr>
+  <tr><td>RevenueCat, Inc.</td><td>Gestión y validación de suscripciones</td><td>Estado de suscripción, ID anónimo, plataforma, ID de transacción</td><td>EE. UU.</td></tr>
+  <tr><td>Apple Inc. / Google LLC (Play Billing)</td><td>Procesamiento de pagos</td><td>Datos de transacción — manejados directamente por la tienda; nunca vemos su método de pago</td><td>EE. UU. / Global</td></tr>
+</table>
+<p>Todos los sub-encargados están vinculados por acuerdos de tratamiento de datos que exigen protección adecuada. No vendemos sus datos personales a terceros.</p>
+
+<h2>7. TRANSFERENCIAS INTERNACIONALES DE DATOS</h2>
+<p>Sus datos se almacenan en servidores operados por Google Cloud, principalmente en EE. UU. Si se encuentra en el Espacio Económico Europeo, Reino Unido, Suiza u otra región con restricciones de exportación de datos, sus datos se transfieren bajo las <strong>Cláusulas Contractuales Tipo (SCC)</strong> de la Comisión Europea y/u otros mecanismos legales con nuestros sub-encargados.</p>
+
+<h2>8. RETENCIÓN DE DATOS</h2>
 <ul>
-  <li><strong>Acceso y portabilidad:</strong> solicitar una copia de sus datos.</li>
-  <li><strong>Corrección:</strong> actualizar datos inexactos desde la pantalla de Perfil en la app.</li>
-  <li><strong>Eliminación:</strong> eliminar su cuenta desde la app (Perfil → Eliminar cuenta) o solicitar eliminación por correo.</li>
-  <li><strong>Retirar consentimiento:</strong> en cualquier momento, eliminando la app y su cuenta.</li>
+  <li><strong>Datos de cuenta y aprendizaje:</strong> conservados mientras su cuenta esté activa.</li>
+  <li><strong>Cuentas inactivas:</strong> si no inicia sesión durante 24 meses consecutivos, podemos eliminar su cuenta y datos asociados tras enviar una notificación a su correo registrado.</li>
+  <li><strong>Historial de conversación con Buddy:</strong> se almacenan las conversaciones más recientes para dar continuidad; puede borrarlas en la App.</li>
+  <li><strong>Registros de suscripción y transacciones:</strong> hasta 7 años para cumplir con leyes fiscales y contables de EE. UU.</li>
+  <li><strong>Logs de fallos / diagnósticos:</strong> hasta 90 días.</li>
+  <li><strong>Eliminación de cuenta:</strong> al eliminar su cuenta, removemos los datos personales en 30 días, salvo registros que estemos legalmente obligados a conservar (p. ej., facturación).</li>
+  <li><strong>Cierre del Servicio:</strong> en caso de cierre permanente, todos los datos personales se eliminarán en 60 días.</li>
 </ul>
 
-<h2>6. VALIDACIÓN DE REEMBOLSOS</h2>
-<p>Si solicita un reembolso a través de Apple o Google, compartiremos información de consumo (métricas de uso) con la tienda correspondiente para validar la solicitud.</p>
+<h2>9. SEGURIDAD</h2>
+<p>Usamos salvaguardas estándar de la industria: cifrado HTTPS/TLS en tránsito, cifrado en reposo en Google Cloud, Firebase App Check para evitar peticiones abusivas, Firebase Authentication con hashing seguro de contraseñas y controles de acceso de mínimo privilegio. Ningún sistema es 100% seguro; usted es responsable de mantener la confidencialidad de sus credenciales. Notificaremos a los usuarios afectados y a las autoridades competentes en caso de violación de datos según exija la ley aplicable.</p>
 
-<h2>7. PRIVACIDAD DE MENORES</h2>
-<p>La App no está dirigida a menores de 13 años. No recopilamos conscientemente datos de menores de 13 años. Si cree que hemos recopilado dichos datos, contáctenos y los eliminaremos.</p>
+<h2>10. PRIVACIDAD DE MENORES (COPPA y RGPD)</h2>
+<p>La App no está dirigida a menores de 13 años (o la edad mínima de consentimiento digital aplicable en su país, p. ej., 16 en algunos países de la UE). No recopilamos conscientemente datos de menores de 13 años. Si es padre/madre o tutor y cree que su hijo nos ha proporcionado datos, contacte <a href="mailto:hola.inglesfacil@gmail.com">hola.inglesfacil@gmail.com</a> y los eliminaremos sin demora.</p>
 
-<h2>8. CONTACTO</h2>
-<p>Fonsek Companies LLC<br>
-Holland, Michigan, EE. UU.<br>
-Correo: <a href="mailto:hola.inglesfacil@gmail.com">hola.inglesfacil@gmail.com</a></p>
+<h2>11. SUS DERECHOS</h2>
+<p>Según su jurisdicción, puede tener los siguientes derechos sobre sus datos personales:</p>
+<ul>
+  <li><strong>Acceso y portabilidad:</strong> solicitar una copia de sus datos en formato portable.</li>
+  <li><strong>Corrección:</strong> actualizar datos inexactos desde la pantalla Perfil de la app o contactándonos.</li>
+  <li><strong>Eliminación ("derecho al olvido"):</strong> eliminar su cuenta en la app (Perfil → Eliminar cuenta) o solicitarlo por correo.</li>
+  <li><strong>Limitación / oposición:</strong> limitar u oponerse a determinados tratamientos.</li>
+  <li><strong>Retirar consentimiento:</strong> en cualquier momento, desactivando notificaciones, eliminando la app o eliminando su cuenta.</li>
+  <li><strong>Reclamación ante autoridad:</strong> si está en la UE/Reino Unido, puede presentar una reclamación ante su autoridad local de protección de datos.</li>
+</ul>
+
+<h3>11.1 Residentes de California (CCPA/CPRA)</h3>
+<p>Tiene derecho a conocer, eliminar y corregir su información personal, a oponerse a la "venta" o "compartición" (nosotros <strong>no</strong> vendemos ni compartimos información personal para publicidad conductual entre contextos) y a limitar el uso de información personal sensible. No discriminamos a los usuarios que ejercen estos derechos. Para ejercerlos: <a href="mailto:hola.inglesfacil@gmail.com">hola.inglesfacil@gmail.com</a>.</p>
+
+<h3>11.2 Brasil (LGPD) y Latinoamérica</h3>
+<p>Tiene derechos de acceso, corrección, anonimización, portabilidad, eliminación, información sobre sub-encargados y revocación del consentimiento bajo la LGPD de Brasil y leyes análogas de Latinoamérica.</p>
+
+<h2>12. VALIDACIÓN DE REEMBOLSOS</h2>
+<p>Si solicita un reembolso a través de Apple o Google, compartiremos datos de consumo (métricas de uso) con la tienda correspondiente únicamente para validar la solicitud, conforme a las políticas de la tienda.</p>
+
+<h2>13. PUBLICIDAD Y RASTREO</h2>
+<p>La App <strong>no</strong> muestra publicidad de terceros, <strong>no</strong> utiliza identificadores publicitarios (IDFA / Android Advertising ID) y <strong>no</strong> participa en publicidad conductual entre contextos. No realizamos App Tracking (ATT) en iOS.</p>
+
+<h2>14. CAMBIOS A ESTA POLÍTICA</h2>
+<p>Podemos actualizar esta Política de Privacidad periódicamente. Los cambios materiales se notificarán a través de la App o por correo al menos 7 días antes de su vigencia. La fecha "Última actualización" arriba reflejará la revisión más reciente.</p>
+
+<h2>15. CONTACTO</h2>
+<p>
+  <strong>Fonsek Companies LLC</strong><br>
+  Holland, Michigan, EE. UU.<br>
+  Correo: <a href="mailto:hola.inglesfacil@gmail.com">hola.inglesfacil@gmail.com</a>
+</p>
 
 <footer>© 2026 Fonsek Companies LLC. Todos los derechos reservados. "Inglés Fácil" es una marca operada por Fonsek Companies LLC.</footer>
 
